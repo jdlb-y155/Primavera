@@ -16,12 +16,16 @@
     <source src="img/Floricienta.mp3" type="audio/mpeg" />
   </audio>
 
-  <script>
-    function reproducirAudio() {
+  <!-- <script>
+     function reproducirAudio() {
       const audio = document.getElementById("miAudio");
-      audio.play();
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
     }
-  </script>
+  </script> -->
 
     <div class="night"></div>
     <div class="flowers">
