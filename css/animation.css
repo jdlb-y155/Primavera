@@ -1,0 +1,28 @@
+
+/* luna */
+
+@keyframes moonAppear {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes moonGlow {
+    from {
+        box-shadow: 
+            0 0 20px #fff6bd,
+            0 0 40px rgba(255, 246, 189, 0.3),
+            0 0 60px rgba(255, 246, 189, 0.2);
+    }
+    to {
+        box-shadow: 
+            0 0 30px #fff6bd,
+            0 0 50px rgba(255, 246, 189, 0.4),
+            0 0 70px rgba(255, 246, 189, 0.3);
+    }
+}

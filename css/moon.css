@@ -1,0 +1,25 @@
+.moon {
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(145deg, 
+        #ffffff 0%,
+        #fff4e5 20%,
+        #f4e8c1 40%,
+        #efe1b3 60%,
+        #e6d5a7 100%
+    );
+    border-radius: 50%;
+    box-shadow: 
+        inset -25px -25px 40px rgba(0,0,0,0.2),
+        0 0 20px #fff4e5,
+        0 0 40px rgba(255, 244, 229, 0.3),
+        0 0 60px rgba(255, 244, 229, 0.2);
+    z-index: 2;
+    opacity: 0;
+    animation: 
+        moonGlow 6s ease-in-out infinite alternate,
+        moonAppear 4s ease-out forwards;
+}
